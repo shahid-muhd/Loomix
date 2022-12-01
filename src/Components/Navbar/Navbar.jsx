@@ -3,17 +3,11 @@ import Hamburger from "./HamburgerMenu/Hamburger";
 import {  animateScroll as scroll } from 'react-scroll'
 
 import './Navbar.css'
-import { scryRenderedComponentsWithType } from "react-dom/test-utils";
+
 
 function Navbar() {
 
-  const scollToRef = useRef();
-
-  // const [scrollPosition, setScrollPosition] = useState(0);
-  // const handleScroll = () => {
-  //   const position = window.pageYOffset;
-  //   setScrollPosition(position);
-  // };
+  
 
   let navLinksStyle = {
     color: "white",
@@ -31,7 +25,7 @@ const options={
   }
   
 
-  // Dimensions
+ 
   const [dimensions, setDimensions] = useState({
     width: window.innerWidth,
     height: window.innerHeight,
@@ -49,7 +43,7 @@ const options={
 
   
 
-  // Dimensions
+
 
   return (
     <div>

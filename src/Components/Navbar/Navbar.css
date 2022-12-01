@@ -32,7 +32,10 @@
 .nav-links a:active {
   color: rgb(189, 67, 75);
 }
-/* LOGO */
+
+
+
+
 .logo {
   font-size: 32px;
   font-weight: 100;
@@ -45,7 +48,7 @@
   font-weight: 510;
 
 }
-/* NAVBAR MENU */
+
 .menu {
   top: 50%;
   display: flex;
