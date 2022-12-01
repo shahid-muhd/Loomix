@@ -1,0 +1,79 @@
+.processContainer {
+  width: 100%;
+  background-color: #2a2929;
+  height: fit-content;
+font-family: monospace;
+  padding: 5%;
+
+
+}
+
+.processContent{
+    max-width: 35%;
+    text-align: justify;
+    color: whitesmoke;
+    font-size: 22px;
+}
+.processHeadings{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+.processOne {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  
+  margin-top: 5rem;
+}
+
+.processTwo {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+
+
+  margin-top: 5rem;
+}
+
+.processThree {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+
+  
+  margin-top: 5rem;
+}
+
+.blank{
+
+    width:100%;
+}
+
+@media screen and (max-width: 850px) {
+  .processContent{
+    max-width:50%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .processContent{
+    max-width:70%;
+    font-size: 16px;
+
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .processContainer{
+    padding-left: 10%;
+    padding-right: 10%;
+
+
+  }
+
+}

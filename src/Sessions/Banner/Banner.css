@@ -1,0 +1,82 @@
+
+.bannerContainer {
+  width: 100%;
+  min-height: 100vh;
+  max-height: fit-content;
+
+  
+  background-image: url('../../../public/Images/banner.svg');
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 1%;
+}
+.bannerTxt {
+
+  text-align: left;
+  margin-top: 40vh;
+  color: aliceblue;
+  
+  width: 50%;
+  text-shadow: 0 1px black;
+  filter: drop-shadow(#141e30);
+  height: fit-content;
+  float: left;
+margin-left: 10px;
+
+
+
+  
+}
+.bannerHeading {
+ 
+  font-size: 70px;
+  text-align: left;
+}
+.joinBtn {
+  width: 12.75rem;
+  height: 3.5rem;
+  border-radius: 30px;
+  border: 1px solid transparent;
+  background: linear-gradient(160deg, rgb(245, 82, 64), rgb(238, 54, 142))
+    rgb(238, 54, 142);
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+
+}
+
+@media only screen and (max-width: 450px) {
+  .bannerContainer{
+  box-shadow:inset 0 0 0 2000px rgba(37, 21, 109, 0.3);
+
+  }
+  .bannerTxt {
+    width: 70%;
+  }
+  .heading {
+    font-size: 50px;
+  }
+
+  .bannerHeading {
+ 
+    font-size: 45px;
+  
+  }
+
+  .joinBtn{
+    font-size: 20px;
+  width: 10rem;
+  }
+  
+
+ 
+}
