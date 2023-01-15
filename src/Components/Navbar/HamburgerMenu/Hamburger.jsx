@@ -28,7 +28,7 @@ function Hamburger() {
     <a href="/" style={{textDecoration:'none'}}>
     <div style={{color:'white'}}  className="logo">
    
-              Pro<span className="fed">Stack</span>
+              LOOMI<span className="fed">X</span>
             </div>
 </a>
 
