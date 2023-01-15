@@ -7,6 +7,7 @@ import Banner from '../../Sessions/Banner/Banner'
 import Process from '../../Sessions/Process/Process'
 import Services from '../../Sessions/Services/Services'
 
+
 function Home() {
   return (
     <div className='homeContainer'>

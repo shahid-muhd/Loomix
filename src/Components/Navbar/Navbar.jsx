@@ -52,7 +52,7 @@ const options={
         {dimensions.width > 880 ? (
           <nav className="navbar" >
            <a href="/" style={{textDecoration:'none'}}><div style={navLinksStyle} className="logo">
-              Pro<span className="fed" >Stack</span>
+              LOOMI<span className="fed" >X</span>
             </div> </a> 
 
             <div className="navRightSide">

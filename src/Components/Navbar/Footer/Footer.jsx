@@ -114,7 +114,7 @@ function Footer() {
                   style={{ width: 60, backgroundColor: "#7c4dff", height: 2 }}
                 />
                 <p>
-                  <i className="fas fa-home mr-3" /> Prostack, Tradelinks And
+                  <i className="fas fa-home mr-3" /> Loomix Digital Solutions, Tradelinks And
                   Services, Pandalam, Pathanamthitta, Kerala - 689515
                 </p>
                 <a href="mailto:prostack21@gmail.com">
