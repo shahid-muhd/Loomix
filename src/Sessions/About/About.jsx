@@ -40,8 +40,9 @@ function About() {
           <div className="toolsBottomSec">
             <Slide>
               <div className="toolsImgHolder">
-                <img
-                  src={process.env.PUBLIC_URL + "/Images/nodejs.png"}
+                <img loading="lazy"
+                style={{maxWidth:'width: 100%',maxHeight:'width: 100%'}}
+                  src={process.env.PUBLIC_URL + "/Images/nodejs.webp"}
                   alt="Node JS"
                   className="toolsImg"
                 />
@@ -51,8 +52,10 @@ function About() {
 
             <Slide>
               <div className="toolsImgHolder">
-                <img
-                  src={process.env.PUBLIC_URL + "/Images/react.png"}
+                <img loading="lazy"
+                style={{maxWidth:'width: 100%',maxHeight:'width: 100%'}}
+
+                  src={process.env.PUBLIC_URL + "/Images/react.webp"}
                   alt="React JS"
                   className="toolsImg"
                 />
@@ -62,8 +65,10 @@ function About() {
 
             <Slide direction="right">
               <div className="toolsImgHolder">
-                <img
-                  src={process.env.PUBLIC_URL + "/Images/firebaseicon.png"}
+                <img loading="lazy"
+                style={{maxWidth:'width: 100%',maxHeight:'width: 100%'}}
+
+                  src={process.env.PUBLIC_URL + "/Images/firebaseicon.webp"}
                   alt="Firebase"
                   className="toolsImg"
                 />
@@ -73,8 +78,10 @@ function About() {
 
             <Slide direction="right">
               <div className="toolsImgHolder">
-                <img
-                  src={process.env.PUBLIC_URL + "/Images/figmaicon.png"}
+                <img loading="lazy"
+                style={{maxWidth:'width: 100%',maxHeight:'width: 100%'}}
+
+                  src={process.env.PUBLIC_URL + "/Images/figmaicon.webp"}
                   alt="Figma"
                   className="toolsImg"
                 />

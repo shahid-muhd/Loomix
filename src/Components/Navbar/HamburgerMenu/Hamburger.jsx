@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import './Hamburger.css'
-import {  animateScroll as scroll } from 'react-scroll'
+
 
 function Hamburger() {
       const [hamState, setHamState] = useState(false)
@@ -12,10 +12,7 @@ function Hamburger() {
   
 
 
-    const ScrollToPosition =()=>{
-      scroll.scrollTo(1600);
   
-    }
 
 
   
@@ -50,7 +47,7 @@ function Hamburger() {
                  <a className='hamMenuLink' href="/about">About</a>
                </li>
 
-               <li onClick={()=>ScrollToPosition()}  >
+               <li  >
                  <a className='hamMenuLink' >Services</a>
                </li>
                <li>

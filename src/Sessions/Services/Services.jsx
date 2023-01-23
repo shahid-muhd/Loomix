@@ -1,6 +1,6 @@
 import React from "react";
 import "./Services.css";
-import { Slide } from "react-awesome-reveal";
+
 function Services() {
   return (
     <React.Fragment>

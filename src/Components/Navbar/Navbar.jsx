@@ -1,6 +1,6 @@
-import React, { useState, useEffect,useRef } from "react";
+import React, { useState, useEffect } from "react";
 import Hamburger from "./HamburgerMenu/Hamburger";
-import {  animateScroll as scroll } from 'react-scroll'
+
 
 import './Navbar.css'
 
@@ -19,10 +19,7 @@ const options={
   smooth:true
 }
 
-  const ScrollToPosition =()=>{
-    scroll.scrollTo(1600,options);
-
-  }
+  
   
 
  
@@ -69,7 +66,7 @@ const options={
                     </a>
                   </li>
 
-                  <li onClick={()=>ScrollToPosition()} style={{cursor:'pointer'}}>
+                  <li  style={{cursor:'pointer'}}>
             
                  Services 
                     

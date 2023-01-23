@@ -58,7 +58,7 @@ function Footer() {
                   style={{ textDecoration: "none", cursor: "pointer" }}
                 >
                   {" "}
-                  <h6 className="text-uppercase fw-bold">Sitemap</h6>{" "}
+                  <h4 className="text-uppercase fw-bold">Sitemap</h4>{" "}
                 </a>
                 <hr
                   className="mb-4 mt-0 d-inline-block mx-auto"
@@ -108,7 +108,7 @@ function Footer() {
               {/* Grid column */}
               <div  className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                 {/* Links */}
-                <h6 className="text-uppercase fw-bold">Contact</h6>
+                <h5 className="text-uppercase fw-bold">Contact</h5>
                 <hr
                   className="mb-4 mt-0 d-inline-block mx-auto"
                   style={{ width: 60, backgroundColor: "#7c4dff", height: 2 }}
@@ -133,6 +133,7 @@ function Footer() {
           </div>
           <div style={{ paddingLeft: "10%" , paddingRight:'10%'}}>
             <iframe
+            title="map"
               className="map"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5650.732651747673!2d76.67774568320411!3d9.209701839244211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x63cf71df98b8454d%3A0x8275557d13256c51!2sProStack!5e0!3m2!1sen!2sin!4v1668753181399!5m2!1sen!2sin"
               width="100%"

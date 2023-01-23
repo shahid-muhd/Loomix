@@ -1,6 +1,6 @@
 import React from 'react'
 import './Banner.css'
-import { Fade , Slide} from "react-awesome-reveal";
+import { Slide} from "react-awesome-reveal";
 
 function Banner() {
   return (
@@ -13,14 +13,14 @@ function Banner() {
       SCALE UP YOUR BUSINESS
       </h1>
      <br />
-     <h3>
+     <h2>
       <span className='fed'>
       your complete digital expert
       </span>
-     </h3>
+     </h2>
     <br />
    <a style={{textDecoration:'none'}} href="/contact"> <button className="joinBtn">
-    <span> join us </span>  
+    <span> Scale Up !</span>  
     </button>
     </a>
     </Slide>
