@@ -4,9 +4,9 @@ import { Slide} from "react-awesome-reveal";
 
 function Banner() {
   return (
-    <div className="bannerContainer ">
+    <div className="bannerContainer " >
       
-    <div className="bannerTxt">
+    <div className="bannerTxt" >
     <Slide direction='up' cascade damping={0.1}> 
       <h1 className="bannerHeading " >
 
